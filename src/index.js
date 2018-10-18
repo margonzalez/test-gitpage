@@ -6,16 +6,19 @@ import 'url-search-params-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
 
 import { unregister } from './registerServiceWorker';
 import './scss/index.scss';
-import store from './redux/store';
+import store, { history } from './redux/store';
 import App from './app';
 
 const render = () => {
   ReactDOM.render(
     <Provider store={store}>
-      <App />
+      <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
+        <App />
+      </BrowserRouter>
     </Provider>,
     document.getElementById('root')
   );

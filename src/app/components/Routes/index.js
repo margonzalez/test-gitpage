@@ -13,7 +13,7 @@ import * as Routes from './constants';
 
 function AppRoutes() {
   return (
-    <ConnectedRouter history={history}>
+    <ConnectedRouter basename={process.env.PUBLIC_URL} history={history}>
       <Switch>
         <AuthenticatedRoute isPublicRoute exact path={Routes.SIGN_IN} component={SignIn} />
         <AuthenticatedRoute isPublicRoute exact path={Routes.PUBLIC_MAP} component={PublicLocalization} />
