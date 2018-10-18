@@ -1,0 +1,24 @@
+{
+  "presets": ["react-app"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "@assets": "./src/app/assets",
+          "app/components": "./src/app/components",
+          "@screens": "./src/app/screens",
+          "@config": "./src/config",
+          "@scss": "./src/scss/variables",
+          "@fonts": "./src/fonts",
+          "@constants": "./src/constants",
+          "@services": "./src/services",
+          "@redux": "./src/redux",
+          "@types": "./src/types",
+          "@utils": "./src/utils"
+        }
+      }
+    ]
+  ]
+}

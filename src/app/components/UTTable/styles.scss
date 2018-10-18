@@ -1,0 +1,21 @@
+@import 'variables/fontFamilies';
+@import 'variables/colors';
+
+.tableRoot {
+  font-family: $nunito;
+}
+
+.cellHead {
+  background-color: $dark-blue;
+  color: $white;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.tableRow {
+  &:hover {
+    &:nth-of-type(odd) {
+      background-color: $light-gray;
+    }
+  }
+}

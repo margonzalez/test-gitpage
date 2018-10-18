@@ -1,0 +1,24 @@
+@import 'variables/colors';
+
+// sass-lint:disable no-vendor-prefixes
+// sass-lint:disable force-pseudo-nesting
+.container {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus {
+    box-shadow: 0 0 0 1000px $white inset;
+  }
+}
+
+.tooltipContentContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  word-break: break-word;
+}

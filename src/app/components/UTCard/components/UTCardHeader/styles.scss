@@ -1,0 +1,19 @@
+.base {
+  display: flex;
+  height: 20%;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 0;
+  width: 100%;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 93%;
+}
+
+.blurred {
+  filter: blur(2px);
+}

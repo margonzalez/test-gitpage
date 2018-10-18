@@ -1,0 +1,48 @@
+@import 'variables/colors';
+@import 'variables/mediaQueries';
+
+.base {
+  background-color: $white;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px -1px $card-shadow-1, 0 4px 5px 0 $card-shadow-2, 0 1px 10px 0 $card-shadow-3;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px;
+  @media #{$mobile} {
+    padding: 15px;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.collapsed {
+  height: 150px;
+  transition: height 0.5s;
+}
+
+.uncollapsed {
+  height: 60px;
+  transition: height 0.5s;
+}
+
+.active {
+  opacity: 1;
+  transition: opacity 1s, visibility 0.25s;
+  visibility: visible;
+}
+
+.inactive {
+  opacity: 0;
+  transition: opacity 0.25s, visibility 1s;
+  visibility: hidden;
+};

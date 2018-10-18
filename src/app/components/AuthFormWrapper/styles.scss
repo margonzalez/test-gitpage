@@ -1,0 +1,13 @@
+@import 'variables/colors';
+
+.container {
+    min-height: 100vh;
+    padding: 2%;
+    box-sizing: border-box;
+    background-image: linear-gradient(180deg, $bahama-blue 20%, #f7f7f7 0%);
+    background-size: 100% 100%;
+};
+
+.spinner {
+    height: 90vh
+};

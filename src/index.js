@@ -1,12 +1,34 @@
+import 'es5-shim';
+import 'es6-shim';
+import 'es7-shim';
+import 'url-search-params-polyfill';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { Provider } from 'react-redux';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import { unregister } from './registerServiceWorker';
+import './scss/index.scss';
+import store from './redux/store';
+import App from './app';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const render = () => {
+  ReactDOM.render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+    document.getElementById('root')
+  );
+};
+
+unregister();
+
+// Render once
+render(App);
+
+// Webpack Hot Module Replacement API
+if (module.hot) {
+  module.hot.accept('./app', () => {
+    render(App);
+  });
+}

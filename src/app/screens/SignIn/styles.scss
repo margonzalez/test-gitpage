@@ -1,0 +1,29 @@
+@import 'variables/colors';
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 85px;
+};
+
+.link {
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.goToPublicLabel {
+  color: rgb(41, 58, 85);
+}
+
+.signInButton {
+  margin-top: 20px;
+}

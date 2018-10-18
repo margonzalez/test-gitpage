@@ -1,0 +1,14 @@
+@import 'variables/colors';
+
+.listItem {
+  color: $white;
+  font-weight: 500;
+}
+
+.listItemContainer {
+  padding-left: 10px;
+}
+
+.selectedItem {
+  background-color: #3f405d !important;
+}

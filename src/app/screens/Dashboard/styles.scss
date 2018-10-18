@@ -1,0 +1,42 @@
+@import 'variables/colors';
+@import 'variables/sizes';
+@import 'variables/mediaQueries';
+
+.fullContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  min-height: calc(100vh - #{$topbar-footer-height} * 2);
+  height: 100vh;
+  width: 100%;
+
+  @media #{$tablet-mobile} {
+    height: 100vh;
+  }
+}
+
+.sidebar-open-background {
+  background-color: $black;
+  height: 100%;
+  opacity: 0.5;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 0 $default-horizontal-padding;
+  width: 100%;
+
+  @media #{$tablet-mobile} {
+    padding: 0 $default-horizontal-padding;
+  }
+}

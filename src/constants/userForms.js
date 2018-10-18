@@ -1,0 +1,16 @@
+exports.FIELD_LABEL = 'Fields::Label';
+exports.FIELD_URL = 'Fields::Url';
+exports.FIELD_CHECKBOX = 'Fields::Checkbox';
+exports.FIELD_IMAGE_LABEL = 'Fields::ImageLabel';
+exports.FIELD_MAP = 'Fields::Map';
+exports.FIELD_SELECT = 'Fields::Select';
+exports.FIELD_DATE = 'Fields::Date';
+exports.FIELD_PHONE = 'Fields::Phone';
+exports.FIELD_TEXT_AREA = 'Fields::TextArea';
+exports.FIELD_IMAGE = 'Fields::Image';
+exports.FIELD_CAPTCHA = 'Fields::Captcha';
+exports.FIELD_TEXT = 'Fields::Text';
+exports.FIELD_RADIO = 'Fields::Radio';
+exports.FIELD_FORM_LINK = 'Fields::FormLink';
+exports.FIELD_CREDIT_CARD = 'Fields::CreditCard';
+exports.FIELD_PASSWORD = 'Fields::Password';

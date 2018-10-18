@@ -1,0 +1,62 @@
+@import 'variables/colors';
+
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.fieldTitle {
+  padding-bottom: 10px;
+}
+
+.error {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imageContainer {
+  align-self: flex-start;
+  display: flex;
+}
+
+.imageLabel {
+  max-height: 250px;
+  max-width: 100%;
+}
+
+.url {
+  text-align: left;
+}
+
+.textAreaCorrector {
+  margin-bottom: 0;
+}
+
+.fieldMap {
+  height: 250px;
+}
+
+.textArea {
+  width: 100%;
+}
+
+.comment {
+  display: flex;
+
+  .comment-icon {
+    fill: $error;
+    max-height: 14px;
+  }
+
+  .fieldComment {
+    color: $error;
+    font-style: italic;
+    transform: translateY(-2px);
+  }
+}
+

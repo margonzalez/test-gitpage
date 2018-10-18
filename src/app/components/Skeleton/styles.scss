@@ -1,0 +1,33 @@
+
+@import 'variables/colors';
+
+@keyframes skeletonAnimation {
+  0% {
+    background-position: -150px;
+  }
+
+  40% {
+    background-position: 350px;
+  }
+
+  100% {
+    background-position: 350px;
+  }
+  }
+
+.skeleton {
+  animation: skeletonAnimation 2s infinite linear;
+  background-color: $skeleton-base;
+  background-image: linear-gradient(90deg, $skeleton-first 0, $skeleton-second 50px, $skeleton-first 100px);
+  background-size: 600px;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  max-height: 8px;
+  max-width: 300px;
+  };
+
+.skeletonHiddenChild {
+  color: transparent;
+  margin-bottom: -1px;
+  visibility: hidden;
+}

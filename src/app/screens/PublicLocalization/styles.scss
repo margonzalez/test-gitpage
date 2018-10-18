@@ -1,0 +1,48 @@
+@import 'variables/colors';
+@import 'variables/sizes';
+@import 'variables/mediaQueries';
+
+.container {
+  display: flex;
+  min-height: calc(100vh - #{$topbar-footer-height} * 2);
+  height: 100vh;
+  width: 100%;
+
+  @media #{$tablet-mobile} {
+    height: 100vh;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 20px 40px;
+  width: 100%;
+
+  @media #{$tablet-mobile} {
+    padding: 0 $default-horizontal-padding;
+  }
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.listContainer {
+  max-height: 300px;
+  overflow: auto
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.card {
+  width: 40%;
+}
