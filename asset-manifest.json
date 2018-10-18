@@ -1,14 +1,12 @@
 {
-  "main.css": "/test-gitpage/static/css/main.6920beae.chunk.css",
-  "main.js": "/test-gitpage/static/js/main.08334ee2.chunk.js",
-  "main.js.map": "/test-gitpage/static/js/main.08334ee2.chunk.js.map",
-  "static/js/1.6105a37c.chunk.js": "/test-gitpage/static/js/1.6105a37c.chunk.js",
-  "static/js/1.6105a37c.chunk.js.map": "/test-gitpage/static/js/1.6105a37c.chunk.js.map",
-  "runtime~main.js": "/test-gitpage/static/js/runtime~main.38f09785.js",
-  "runtime~main.js.map": "/test-gitpage/static/js/runtime~main.38f09785.js.map",
-  "static/media/logo.svg": "/test-gitpage/static/media/logo.5d5d9eef.svg",
-  "static/css/main.6920beae.chunk.css.map": "/test-gitpage/static/css/main.6920beae.chunk.css.map",
-  "index.html": "/test-gitpage/index.html",
-  "precache-manifest.cfc197596a1693226746f6b0d3f88b73.js": "/test-gitpage/precache-manifest.cfc197596a1693226746f6b0d3f88b73.js",
-  "service-worker.js": "/test-gitpage/service-worker.js"
+  "main.css": "static/css/main.c5bf04bf.css",
+  "main.css.map": "static/css/main.c5bf04bf.css.map",
+  "main.js": "static/js/main.fa2a786e.js",
+  "main.js.map": "static/js/main.fa2a786e.js.map",
+  "static/media/Nunito-Bold.ttf": "static/media/Nunito-Bold.6f47bcfc.ttf",
+  "static/media/Nunito-ExtraBold.ttf": "static/media/Nunito-ExtraBold.8f56148b.ttf",
+  "static/media/Nunito-Light.ttf": "static/media/Nunito-Light.c41c2502.ttf",
+  "static/media/Nunito-Regular.ttf": "static/media/Nunito-Regular.65bb0a15.ttf",
+  "static/media/Nunito-SemiBold.ttf": "static/media/Nunito-SemiBold.713ac08d.ttf",
+  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
 }
